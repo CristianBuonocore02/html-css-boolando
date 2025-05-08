@@ -158,6 +158,37 @@ main {
     }
 }
 
+footer {
+    background-color: var(--primary-color-black);
+    padding: 15px;
+    color: white;
+
+
+    .footer-flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 25%;
+    }
+
+    .flex-icone {
+        display: flex;
+        gap: 6px;
+    }
+
+    .font_dimensione p {
+        font-size: smaller;
+    }
+
+    h6 {
+        padding-bottom: 7px;
+    }
+
+    .info-foot {
+        padding-bottom: 4px;
+    }
+}
+
 p span {
     color: var(--primary-color-black);
     text-decoration: line-through;
