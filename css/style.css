@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color-orange: #ff761b;
+    --primary-color-red: red;
+    --primary-color-black: black;
+    --primary-color-white: white;
+    --primary-color-green: green;
+}
+
+header {
+    background-color: var(--primary-color-orange);
+    padding: 15px;
+    color: var(--primary-color-white);
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar img {
+        width: 100px;
+    }
+
+    .sezioni-UDB ul {
+        display: flex;
+        gap: 8px;
+        list-style: none;
+    }
+
+    .icone-menù ul {
+        display: flex;
+        gap: 8px;
+        list-style: none;
+    }
+
+}
