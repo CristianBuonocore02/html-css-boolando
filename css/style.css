@@ -48,12 +48,17 @@ header {
     background-color: var(--primary-color-orange);
     padding: 15px;
     color: var(--primary-color-white);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
 
 
     .navbar {
         display: flex;
         justify-content: space-around;
         align-items: center;
+
     }
 
     .navbar img {
@@ -78,7 +83,13 @@ main {
 
     p {
         color: var(--primary-color-red);
+        font-size: 10px;
     }
+
+    h3 {
+        font-size: 10px;
+    }
+
 
     img {
         width: 100%;
@@ -88,6 +99,10 @@ main {
         max-width: 1200px;
         width: 80%;
         margin: 50px auto;
+
+        card img:hover {
+            transform: scale(1, 5);
+        }
 
 
         .righe {
@@ -102,7 +117,7 @@ main {
         }
 
         .marche {
-            font-size: small;
+            font-size: 10px;
         }
 
         .card {
@@ -118,7 +133,7 @@ main {
         .percentuale {
             border: solid var(--primary-color-red);
             background-color: var(--primary-color-red);
-            padding: 3px;
+            font-size: 10px;
             color: white;
         }
 
@@ -126,8 +141,8 @@ main {
             border: solid var(--primary-color-green);
             background-color: var(--primary-color-green);
             color: white;
-            padding: 2px;
-            padding-left: 0px 5px;
+            font-size: 10px;
+            padding: 0px 7px;
 
         }
 
@@ -141,4 +156,41 @@ main {
             left: 90%;
         }
     }
+}
+
+p span {
+    color: var(--primary-color-black);
+    text-decoration: line-through;
+    font-size: 10px;
+}
+
+.card:hover {
+    transform: scale(1.07);
+    transition: 1s;
+}
+
+
+
+.img1:hover {
+    content: url(../img/1b.webp);
+}
+
+.img2:hover {
+    content: url(../img/2b.webp);
+}
+
+.img3:hover {
+    content: url(../img/3b.webp);
+}
+
+.img4:hover {
+    content: url(../img/4b.webp);
+}
+
+.img5:hover {
+    content: url(../img/5b.webp);
+}
+
+.img6:hover {
+    content: url(../img/6b.webp);
 }
